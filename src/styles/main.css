@@ -40,7 +40,13 @@ header .column span {
     accent-color: #FFF;
 }
 
-.keys-check input {
+.keys-check,
+.dist-check {
+    justify-content: space-between;
+}
+
+.keys-check input,
+.dist-check input {
     width: 60px;
     height: 30px;
     appearance: none;
@@ -50,7 +56,8 @@ header .column span {
     position: relative;
 }
 
-.keys-check input::before {
+.keys-check input::before,
+.dist-check input::before {
     content: "";
     height: 20px;
     width: 20px;
@@ -63,7 +70,8 @@ header .column span {
     transition: all 0.3s ease;
 }
 
-.keys-check input:checked::before {
+.keys-check input:checked::before,
+.dist-check input:checked::before {
     left: 2.1rem;
     background-color: #FFF;
 }
@@ -120,4 +128,10 @@ header .column span {
 
 .piano-keys .key.hide span {
     display: none;
+}
+
+.toggles {
+    display: flex;
+    flex-direction: column;
+    gap:10px;
 }
