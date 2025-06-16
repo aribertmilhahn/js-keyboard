@@ -1,6 +1,6 @@
 # Piano Virtual
 
-Esse projeto é a entrega de um desafio do módulo de "Construindo um Simulador de Piano com JavaScript e CSS" na **[Digital Innovation One](dio.me)**.
+Esse projeto é a entrega do desafio "Construindo um Simulador de Piano com JavaScript e CSS" na **[Digital Innovation One](dio.me)**.
 
 ### Tecnologias Utilizadas
 
